@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home1">
+
+    <fragment
+        android:id="@+id/nav_home1"
+        android:name="com.dipen.plannerapp.ui.Daily.DailyFragment"
+        android:label="Student Planner"
+        tools:layout="@layout/fragment_daily" />
+
+    <fragment
+        android:id="@+id/nav_calendar1"
+        android:name="com.dipen.plannerapp.ui.Calendar.CalendarFragment"
+        android:label="Calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_Reminder1"
+        android:name="com.dipen.plannerapp.ui.Reminder.ReminderFragment"
+        android:label="@string/menu_Reminder"
+        tools:layout="@layout/fragment_remider" />
+</navigation>

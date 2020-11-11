@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home1"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_calendar1"
+            android:icon="@drawable/calendar_ic"
+            android:title="@string/calendar" />
+        <item
+            android:id="@+id/nav_Reminder1"
+            android:icon="@drawable/reminder_ic"
+            android:title="@string/reminder" />
+    </group>
+</menu>
