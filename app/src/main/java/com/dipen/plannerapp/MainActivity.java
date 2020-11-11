@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mTabs = findViewById(R.id.tabLayout);
         tab1 = findViewById(R.id.daily_item);
         tab2 = findViewById(R.id.weekly_item);
-        tab3 = findViewById(R.id.monthly_item);
+       // tab3 = findViewById(R.id.monthly_item);
 
         adapter = new PagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT,mTabs.getTabCount());
         pager.setAdapter(adapter);

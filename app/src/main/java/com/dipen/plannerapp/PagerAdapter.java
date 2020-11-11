@@ -18,16 +18,17 @@ public class PagerAdapter extends FragmentPagerAdapter {
     @NonNull
     @Override
     public Fragment getItem(int position) {
-        switch (position){
+        switch (position) {
             case 0:
                 return new DailyFragment();
             case 1:
                 return new WeeklyFragment();
-            case 2:
-                return new MonthlyFragment();
+          /*case 2:
+                return new MonthlyFragment();*/
                 default: return null;
         }
         //return null;
+
     }
 
     @Override
